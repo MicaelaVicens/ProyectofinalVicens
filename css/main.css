@@ -3,8 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
   }
+ 
   
-  /* === GENERAL === */
   body {
     background-color:#f0eae8;
     background-repeat: space repeat center;
@@ -97,7 +97,7 @@
     font-size: 1.8rem;
   }
   
-  /* === INDEX === */
+  
   .carrusel-index {
     display: flex;
     justify-content: center;
@@ -162,7 +162,7 @@
     text-align: center;
   }
   
-  /* === PRODUCTOS === */
+ 
   #container-general {
     display: flex;
     flex-direction: column;
@@ -217,7 +217,7 @@
     flex-direction: column;
   }
   
-  /* === CARRITO === */
+  
   .section-carrito {
     display: flex;
     flex-direction: column-reverse;
@@ -262,7 +262,7 @@
     padding: 15px;
   }
   
-  /* === CONTACTO === */
+  
   .section-contacto {
     display: flex;
     flex-direction: row;
@@ -334,7 +334,7 @@
     color: rgba(248, 181, 104, 0.8352941176);
   }
   
-  /* === INDEX === */
+
   .carrusel-index {
     display: flex;
     justify-content: center;
@@ -371,9 +371,9 @@
     font-size: 1rem;
   }
   
-  /* ----------- SMARTPHONE ----------- */
+  
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /*--- GENERAL ---*/
+    
     header nav div {
       align-items: flex-end;
     }
@@ -393,14 +393,14 @@
       text-align: center;
       margin-bottom: 30px;
     }
-    /*--- INDEX ---*/
+
     .div-cuadros .boxes {
       width: 55vh;
     }
     .div-cuadros .boxes h2 {
       font-size: 1rem;
     }
-    /*--- PRODUCTOS ---*/
+    
     #container-general #ordenar-modal {
       flex-direction: column;
       justify-content: center;
@@ -431,7 +431,7 @@
       font-size: 0.9rem;
       padding: 2px;
     }
-    /*--- CARRITO ---*/
+ 
     .section-carrito {
       display: flex;
       flex-direction: column-reverse;
@@ -452,7 +452,7 @@
     .section-carrito .resumen-carrito table {
       text-align: center;
     }
-    /*--- CONTACTO ---*/
+   
     .section-contacto {
       width: 100%;
       margin-left: auto;
@@ -477,7 +477,7 @@
       margin-right: auto;
       padding: 20px;
     }
-    /*--- INFO ---*/
+   
     .info h2 {
       padding: 20px;
     }
@@ -495,9 +495,11 @@
       padding: 15px 20px 15px 10px;
     }
   }
-  /* ----------- TABLET ----------- */
+
+  
+
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /*--- GENERAL ---*/
+   
     header nav div {
       align-items: flex-end;
     }
@@ -508,14 +510,14 @@
       justify-content: space-around;
       margin-bottom: 25px;
     }
-    /*----INDEX----*/
+    
     .div-cuadros .boxes h2 {
       font-size: 1rem;
     }
     .div-cuadros .boxes p {
       font-size: 0.9rem;
     }
-    /*--- PRODUCTOS ---*/
+    
     #container-general #ordenar-modal #seleccion {
       margin: 0px;
     }
@@ -527,7 +529,7 @@
       font-size: 0.9rem;
       padding: 5px;
     }
-    /*--- CARRITO ---*/
+    
     .section-carrito {
       width: 80%;
       margin-left: auto;
@@ -549,7 +551,7 @@
     .section-carrito .form-carrito .resumen-carrito table {
       text-align: center;
     }
-    /*--- CONTACTO ---*/
+   
     .section-contacto {
       width: 80%;
       margin-left: auto;
@@ -575,4 +577,3 @@
     }
   }
   
-  /*# sourceMappingURL=main.css.map */
