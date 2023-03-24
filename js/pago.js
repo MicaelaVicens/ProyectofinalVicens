@@ -194,7 +194,7 @@ function calcularTotalCompra(envio) {
     return total + envio;
 };
 
-//funcion para validar la opcion elegida como metodo de pago
+
 function validarPago() {
     let metodoPago = $("#metodo-pago").val();
     if (metodoPago == "debito" || metodoPago == "credito") {
@@ -209,7 +209,7 @@ function validarPago() {
     };
 };
 
-//funcion que resetea todos los valores una vez finalizada la compra 
+
 function vaciarCarrito() {
     $("#gastoTotal").text("Total: $0");
     $("#cantidad-compra").text("0");
@@ -218,7 +218,7 @@ function vaciarCarrito() {
     carrito = [];
 }
 
-//funcion para simular la subida de los datos a una API
+
 function enviarDatos(datos) {
     const URLPOST = "https://jsonplaceholder.typicode.com/posts";
 
