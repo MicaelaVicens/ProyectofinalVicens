@@ -1,0 +1,66 @@
+/* === INDEX === */
+.carrusel-index {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    .carousel-item{
+        img{
+            width: 20em;
+        }
+    }
+}
+
+.div-cuadros {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+
+    .boxes {
+        width: 48vh;
+        margin: 10px;
+        padding: 25px;
+        background-color: $transparencia;
+
+        &:hover {
+            transform: scale(1.1, 1.1);
+        }
+
+        h2 {
+            font-weight: bold;
+            font-size: 1.2rem;
+
+            i {
+                padding: 10px;
+            }
+        }
+
+        p {
+            margin-left: 10px;
+            font-size: 1rem
+        }
+    }
+}
+.seccionCafe{
+min-height: 100%;
+width: 100% ;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 50px;
+    .cafe{
+        width: 90%;
+        height: auto;
+        max-width: 1200px;
+        margin: 0 auto;
+        .title-general{
+            margin-bottom: 10px;
+            margin-top: 10px;
+            font-size: 50px;
+            text-align: center;
+        }
+       
+            }
+            
+        }
+    
