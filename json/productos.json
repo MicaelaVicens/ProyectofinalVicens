@@ -1,0 +1,38 @@
+[{
+    "id": 1,
+    "tipo": "Cafe1",
+    "nombre": "Cafe Colombiano",
+    "precio": 1000,
+    "foto": "../img/paquetecafe1.jpg"
+}, {
+    "id": 2,
+    "tipo": "Cafe2",
+    "nombre": "Cafe Brasilero",
+    "precio": 800,
+    "foto": "../img/paquetecafe2.jpg"
+}, {
+    "id": 3,
+    "tipo": "Cafe3",
+    "nombre": "Cafe Italiano",
+    "precio": 1500,
+    "foto": "../img/paquetecafe3.jpg"
+}, {
+    "id": 4,
+    "tipo": "Cafe4",
+    "nombre": "Cafe Mexicano",
+    "precio": 950,
+    "foto": "../img/paquetecafe4.jpg"
+}, {
+    "id": 5,
+    "tipo": "Cafe5",
+    "nombre": "Cafe Japones",
+    "precio": 1200,
+    "foto": "../img/paquetecafe5.jpg"
+}, {
+    "id": 6,
+    "tipo": "Cafe6",
+    "nombre": "Cafe Ingles",
+    "precio": 1300,
+    "foto": "../img/paquetecafe6.jpg"
+}
+]
